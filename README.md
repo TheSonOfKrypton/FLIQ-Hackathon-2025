@@ -16,12 +16,8 @@ The notebook is beginner-friendly but detailed enough for intermediate quantum e
 
 ## Requirements
 
-I recommend using the provided Python virtual environment for reproducibility.
+I recommend using the provided Python packages that I used in my virtual environment for reproducibility. You can find them in "requirements.txt".
 
-The test.py file ensures that the functions used on IBM's hardware work before submitting the job.
+The test.py file ensures that the functions used on IBM's hardware work before submitting the job. If you update a function in notebook for an exercise, ensure you make the respective update in the test.py file and run it first before submitting a job on IBM's hardware.
 
-### Navigate to the environment:
-
-```bash
-python3 -m venv fliq_venv
-source fliq_venv/bin/activate
+Happy Qhacking!
